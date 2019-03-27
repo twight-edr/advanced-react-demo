@@ -18,7 +18,14 @@
   "babel": {
     "presets": [
       "react",
-      ["env", { "targets": { "node": "current" } }]
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
     ],
     "plugins": [
       "transform-class-properties",
@@ -31,7 +38,7 @@
     "eslint": "^4.1.0",
     "eslint-plugin-react": "^7.1.0",
     "jest": "^20.0.4",
-    "react-test-renderer": "^15.6.1"
+    "react-test-renderer": "15.5.4"
   },
   "dependencies": {
     "axios": "^0.16.2",
